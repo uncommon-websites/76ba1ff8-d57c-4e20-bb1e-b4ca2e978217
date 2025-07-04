@@ -11,21 +11,27 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Build ideas fast"
+	subtitle="We design, build, and ship products in days"
+	imageSrc="/generated/image-a-group-of-early-stage-startup-entrepren.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by innovative companies"
+	logoUrls={[
+		'https://logo.clearbit.com/notion.so',
+		'https://logo.clearbit.com/figma.com',
+		'https://logo.clearbit.com/airtable.com',
+		'https://logo.clearbit.com/canva.com'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -58,7 +64,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -81,7 +86,6 @@
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
@@ -121,5 +125,5 @@
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
