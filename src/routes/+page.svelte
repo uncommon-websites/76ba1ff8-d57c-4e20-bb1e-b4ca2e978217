@@ -11,7 +11,7 @@
 </script>
 
 <Hero
-	title="Build ideas fast"
+	title="Accelerate your next product. Skip the wait."
 	subtitle="We design, build, and ship products in days"
 	imageSrc="/generated/image-a-group-of-early-stage-startup-entrepren.webp"
 	centered={false}
