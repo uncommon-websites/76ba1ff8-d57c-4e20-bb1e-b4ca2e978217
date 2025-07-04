@@ -28,59 +28,56 @@
 
 <Summary
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We design, implement, and ship early-stage products rapidly for startups and entrepreneurs. Our streamlined process accelerates product development from months to days. We handle everything from design to launch, helping you validate ideas and get to market faster."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
+			name: "Zara Hendricks",
+			position: "Founder & CEO",
+			company: "VelocityTech",
+			quote:
+				"Envel compressed our 6-month product timeline into 8 days. We launched two weeks ahead of our biggest competitor and secured early market advantage that translated into $2M in pre-orders.",
+			image: "/generated/image-a-professional-woman-entrepreneur-standi.webp"
+		},
+		{
+			name: "Kai Nakamura",
 			position: "CTO",
-			company: "Tech Innovations",
+			company: "FlowState Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Building in-house would have been a $200K gamble with uncertain outcomes. Envel eliminated the technical risk entirely and delivered a validated MVP for under $15K that immediately attracted investor interest.",
+			image: "/generated/image-a-young-male-entrepreneur-in-a-creative-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Reese Pemberton",
+			position: "VP of Product",
+			company: "Nexus Dynamics",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Instead of hiring a $180K developer for 6 months, we spent $12K with Envel and had our product live in one week. The ROI was immediate and the speed-to-market advantage was game-changing.",
+			image: "/generated/image-a-female-executive-in-a-sophisticated-bu.webp"
 		}
 	]}
 />
 
 <Features
-	title="Features"
-	subtitle="Some features"
+	title="Why choose Envel"
+	subtitle="Accelerating product development with proven solutions"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Lightning fast delivery",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Ship quality products in days, not months, with our accelerated development process designed specifically for early-stage ventures."
 		},
 		{
-			title: "Data Analysis",
+			title: "End-to-end product development",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"From initial design concepts to full implementation and launch, we handle every aspect of bringing your product to market."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Early-stage expertise",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Built for startups and entrepreneurs who need rapid validation and quick market entry to test ideas and secure early users."
 		}
 	]}
 />
@@ -90,36 +87,30 @@
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Transform ideas into products",
+			description: "Stop spending months planning and start building. We take your concept from idea to deployed product in days, letting you test market demand while your competitors are still planning.",
+			image: "/generated/image-a-startup-founder-is-enthusiastically-pr.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/idea-to-product",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Accelerate feature development",
+			description: "Need a new feature but don't want to slow down your core product? We rapidly develop and integrate new functionality so your team can stay focused on what matters most.",
+			image: "/generated/image-a-group-of-software-developers-is-gather.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/feature-acceleration",
+				label: "See how it works"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Validate before you invest",
+			description: "Reduce risk by testing your assumptions with real users before committing significant resources. Get user feedback on working prototypes in days, not quarters.",
+			image: "/generated/image-an-entrepreneur-is-interacting-with-a-gr.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/validation-testing",
+				label: "Start validating"
 			}
 		}
 	]}

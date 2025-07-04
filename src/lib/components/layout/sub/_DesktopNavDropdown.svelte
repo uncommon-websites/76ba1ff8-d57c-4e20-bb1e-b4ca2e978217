@@ -1,14 +1,14 @@
 <script lang="ts">
 	// Components
 	import { NavigationMenu } from "bits-ui";
-	import IconChevronDown from "~icons/lucide/chevron-down";
+	import IconChevronDown from "$lib/components/icons/ChevronDown.svelte";
 
 	// Props
 	const { item } = $props();
 
 	// State
 	let activeImageIndex = $state(0);
-	let hasImages = $derived(item.children.some((child) => child.image));
+	let hasImages = $derived(item.children.some((child: any) => child.image));
 
 	function setActiveImageIndex(index: number) {
 		activeImageIndex = index;
@@ -19,7 +19,6 @@
 	{item.label}
 	<IconChevronDown
 		class="relative top-[1px] size-3 opacity-80 transition duration-200 ease-out group-hover/item:opacity-100 group-data-[state=open]:rotate-180 "
-		aria-hidden="true"
 	/>
 </NavigationMenu.Trigger>
 

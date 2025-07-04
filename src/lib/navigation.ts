@@ -35,12 +35,14 @@ export type NavItem = {
 	label: string;
 	href?: string;
 	image?: string;
+	target?: string;
 	showInNav?: boolean;
 	showInFooter?: boolean;
 
 	children?: (Omit<NavItem, "children" | "image"> & {
 		image?: string;
 		description?: string;
+		target?: string;
 		showInNav?: boolean;
 		showInFooter?: boolean;
 	})[];
@@ -64,38 +66,26 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
-				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
+				label: "Idea to Product",
+				href: "/use-cases/idea-to-product",
+				image: "/generated/image-a-startup-founder-is-enthusiastically-pr.webp",
+				description: "Stop spending months planning and start building. We take your concept from idea to deployed product in days, letting you test market demand while your competitors are still planning.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+				label: "Feature Acceleration",
+				href: "/use-cases/feature-acceleration",
+				image: "/generated/image-a-group-of-software-developers-is-gather.webp",
+				description: "Need a new feature but don't want to slow down your core product? We rapidly develop and integrate new functionality so your team can stay focused on what matters most.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
+				label: "Validation Testing",
+				href: "/use-cases/validation-testing",
+				image: "/generated/image-an-entrepreneur-is-interacting-with-a-gr.webp",
+				description: "Reduce risk by testing your assumptions with real users before committing significant resources. Get user feedback on working prototypes in days, not quarters.",
 				showInNav: true,
 				showInFooter: true
 			}
